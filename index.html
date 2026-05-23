@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Galaxy S8+ Samsung Experience ROM</title>
+
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+
+<style>
+body{
+    margin:0;
+    font-family:'Roboto',sans-serif;
+    background:#f2f2f2;
+    color:#111;
+}
+
+header{
+    background:url('https://images.samsung.com/is/image/samsung/p5/global/galaxy-s8/gallery/galaxy-s8_gallery_blue_front.jpg');
+    background-size:cover;
+    background-position:center;
+    color:white;
+    padding:120px 20px;
+    text-align:center;
+    box-shadow:0 3px 10px rgba(0,0,0,0.4);
+    position:relative;
+}
+
+header::before{
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.45);
+}
+
+header h1,
+header p{
+    position:relative;
+    z-index:2;
+}
+
+header h1{
+    margin:0;
+    font-size:48px;
+    font-weight:300;
+}
+
+header p{
+    margin-top:10px;
+    opacity:0.95;
+    font-size:18px;
+}
+
+nav{
+    background:white;
+    padding:15px;
+    text-align:center;
+    position:sticky;
+    top:0;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+    z-index:100;
+}
+
+nav a{
+    color:#1976d2;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:500;
+}
+
+.container{
+    max-width:1000px;
+    margin:auto;
+    padding:30px 20px;
+}
+
+.card{
+    background:white;
+    border-radius:18px;
+    padding:30px;
+    margin-bottom:25px;
+    box-shadow:0 3px 12px rgba(0,0,0,0.08);
+}
+
+.card h2{
+    margin-top:0;
+    color:#1976d2;
+}
+
+.button{
+    display:inline-block;
+    background:#1976d2;
+    color:white;
+    padding:12px 22px;
+    border-radius:12px;
+    text-decoration:none;
+    margin-top:10px;
+    transition:0.2s;
+}
+
+.button:hover{
+    background:#1258a8;
+}
+
+.steps{
+    line-height:2;
+    font-size:17px;
+}
+
+.warning{
+    background:#fff3cd;
+    border-left:5px solid #ffb300;
+    padding:15px;
+    border-radius:10px;
+    margin-top:20px;
+}
+
+footer{
+    text-align:center;
+    padding:40px;
+    color:#666;
+    font-size:14px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Galaxy S8+ Samsung Experience ROM</h1>
+    <p>
+        Samsung Galaxy S8+ Exynos (SM-G955F / SM-G955FD)<br>
+        Android 8.0 • Samsung Experience 9.0
+    </p>
+</header>
+
+<nav>
+    <a href="#download">Download</a>
+    <a href="#installation">Installation</a>
+    <a href="#debugging">Debugging</a>
+</nav>
+
+<div class="container">
+
+<div class="card" id="download">
+    <h2>ROM Download</h2>
+
+    <div class="warning">
+        This ROM is ONLY for Samsung Galaxy S8+ Exynos models.
+    </div>
+
+    <p>
+        Download the latest build of the Samsung Experience ROM for Galaxy S8+.
+    </p>
+
+    <a class="button" href="YOUR_ROM_LINK_HERE">
+        Download ROM
+    </a>
+</div>
+
+<div class="card" id="installation">
+    <h2>Installation Guide</h2>
+
+    <div class="steps">
+        1. Download the ROM zip file.<br>
+        2. Boot into TWRP Recovery.<br>
+        3. Go to Wipe.<br>
+        4. Wipe:
+        <ul>
+            <li>System</li>
+            <li>Data</li>
+            <li>Cache</li>
+            <li>Dalvik / ART Cache</li>
+        </ul>
+
+        5. Return to main menu.<br>
+        6. Press Install.<br>
+        7. Select the ROM zip file.<br>
+        8. Swipe to flash.<br>
+        9. Reboot system.<br>
+    </div>
+
+    <a class="button" href="YOUR_GUIDE_LINK_HERE">
+        Full Installation Guide
+    </a>
+
+    <div class="warning">
+        First boot may take 5-10 minutes.
+    </div>
+</div>
+
+<div class="card" id="debugging">
+    <h2>Debugging / Boot Issues</h2>
+
+    <p>
+        If the phone is stuck on the Samsung logo, but hard pressing the Home button still works,
+        you may need to flash the repartitioner.
+    </p>
+
+    <a class="button" href="YOUR_REPARTITIONER_LINK_HERE">
+        Download Repartitioner
+    </a>
+
+    <div class="warning">
+        This repartitioner is made for Samsung Galaxy S8+ Exynos.
+    </div>
+
+    <br>
+
+    <p>
+        Magisk is optional if you want root access.
+    </p>
+
+    <a class="button" href="YOUR_MAGISK_LINK_HERE">
+        Download Magisk
+    </a>
+
+</div>
+
+</div>
+
+<footer>
+    Galaxy S8+ Samsung Experience ROM
+</footer>
+
+</body>
+</html>
