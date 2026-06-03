@@ -8,3 +8,4 @@ https://gameshub23.github.io/OraxUI_Build_S8plus/
 
 
 THE GUIDE IS IN SITE, DOWNLOAD THE SAME, DEBUGGING TOO
+If you want GTP5110 VISIT SITE https://github.com/GamesHub23/ROM_GTP5110_ANDROID4.0
