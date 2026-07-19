@@ -2,10 +2,13 @@
 
 
 OraxUI ROM For galaxy s8 plus, works only on exynos
-
-
 https://gameshub23.github.io/OraxUI_Build_S8plus/
 
+**Instalation Steps**
+`Flash Universal Repartitioner
+Flash Cleaner after Reboot
+Do a format data, then everything
+Flash the rom`
 
-THE GUIDE IS IN SITE, DOWNLOAD THE SAME, DEBUGGING TOO
-If you want GTP5110 VISIT SITE https://github.com/GamesHub23/ROM_GTP5110_ANDROID4.0
+**For Users that already installed the rom**
+`Flash the rom and reboot`
